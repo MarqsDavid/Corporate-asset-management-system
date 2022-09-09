@@ -15,6 +15,11 @@ body {
     background-color: #fff;
 }
 
+.list:hover {
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #00BFFF, #87CEFA);
+}
+
 /* nav */
 
 .nav {
@@ -166,3 +171,5 @@ body {
 .toggle ion-icon.close {
     display: none;
 }
+
+

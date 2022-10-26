@@ -13,7 +13,7 @@
 
     else
     {
-        echo "conexão efetuada com sucesso";
+        echo "Cadastro efetuada com sucesso";
    }
 ?>
 

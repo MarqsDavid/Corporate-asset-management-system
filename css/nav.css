@@ -1,4 +1,5 @@
-import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* Google Font Import - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,7 +11,7 @@ import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;60
     /* ===== Colors ===== */
     --body-color: #E4E9F7;
     --sidebar-color: #FFF;
-    --primary-color: #695CFE;
+    --primary-color: #0078F0;
     --primary-color-light: #F6F5FF;
     --toggle-color: #DDD;
     --text-color: #707070;
@@ -36,9 +37,9 @@ body{
 body.dark{
     --body-color: #18191a;
     --sidebar-color: #242526;
-    --primary-color: #3a3b3c;
+    --primary-color: #0078F0;
     --primary-color-light: #3a3b3c;
-    --toggle-color: #fff;
+    --toggle-color: #0078F0;
     --text-color: #ccc;
 }
 

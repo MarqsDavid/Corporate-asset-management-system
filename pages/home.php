@@ -23,7 +23,7 @@
 
                 <div class="text logo-text">
                     <span class="name">David</span>
-                    <span class="profession">Olá</span>
+                    <span class="profession">Marques</span>
                 </div>
             </div>
 

@@ -42,7 +42,7 @@
                     <li class="nav-link">
                         <a href="#">
                             <i class='bx bx-home-alt icon' ></i>
-                            <span class="text nav-text">Home</span>
+                            <span class="text nav-text">Inicio</span>
                         </a>
                     </li>
 

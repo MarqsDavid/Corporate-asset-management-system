@@ -21,7 +21,7 @@
                         <h1>Cadastro de Usuarios</h1>
                     </div>
                     <div class="login-button">
-                        <button><a href="gerenUsu.html">Voltar</a></button>
+                        <button><a href="#">Voltar</a></button>
                     </div>
                 </div>
 

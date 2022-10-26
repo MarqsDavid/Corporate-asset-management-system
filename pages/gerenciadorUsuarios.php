@@ -18,7 +18,7 @@
             <nav>
                  
                 <div class="nav-user">USUARIOS</div>
-                <div class="nav-add"><a href="addUsu.html">ADICIONAR</a></div>
+                <div class="nav-add"><a href="#">ADICIONAR</a></div>
 
             </nav>
         </div>
@@ -28,7 +28,7 @@
                 <div class="icon exit" >
                     <ion-icon name="exit"></ion-icon>
                 </div>
-                <a href="login.html">Sai</a>
+                <a href="#">Sai</a>
             </div>
             
         </div>

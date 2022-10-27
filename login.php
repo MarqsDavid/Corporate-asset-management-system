@@ -8,7 +8,7 @@
       src="https://kit.fontawesome.com/64d58efce2.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./css/login.css"/>
+    <link rel="stylesheet" href="../css/login.css"/>
     <title>Sign in</title>
   </head>
   <body>
@@ -39,7 +39,7 @@
         <div class="panel left-panel">
           <div class="content">
           </div>
-          <img src="./img/register.svg" class="image" alt="" />
+          <img src="../img/register.svg" class="image" alt="" />
           <div class="panel right-panel">
             
         </div>

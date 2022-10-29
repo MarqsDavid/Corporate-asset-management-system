@@ -12,9 +12,10 @@
        $tipoUsuario = $_POST['usu-taype'];
        $senha = $_POST['password']; 
        $confimeSenha = $_POST['confirmPassword']; 
-
-       $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,sobrenome,email,celular,genero,tipoUsuario,senha,confimeSenha) VALUES
-       ('$nome','$sobrenome','$email','$celular','$genero','$tipoUsuario','$senha','$confimeSenha')");
+       $dataCriacao = $_POST['creation-date'];
+       
+       $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,sobrenome,email,celular,genero,tipoUsuario,senha,confimeSenha,dataCriacao) VALUES
+       ('$nome','$sobrenome','$email','$celular','$genero','$tipoUsuario','$senha','$confimeSenha','$dataCriacao')");
 
     }
 ?>

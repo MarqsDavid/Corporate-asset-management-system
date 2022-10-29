@@ -1,3 +1,4 @@
+<?php include('../php/sessao.php')?>
 <nav class="sidebar close">
     <header>
         <div class="image-text">
@@ -6,8 +7,11 @@
             </span>
 
             <div class="text logo-text">
-                <span class="name">David</span>
-                <span class="profession">Marques</span>
+                <span class="name">   <?php
+                    echo "$logado";
+                ?></span>
+                <span class="profession"></span>
+
             </div>
         </div>
 
@@ -50,7 +54,7 @@
 
         <div class="bottom-content">
             <li class="">
-                <a href="#">
+                <a href="../php/sai.php">
                     <i class='bx bx-log-out icon' ></i>
                     <span class="text nav-text">Sai</span>
                 </a>
@@ -76,6 +80,7 @@
 <section class="home">
     <div class="text">Home</div>
 </section>
-
-<script src="../js/home.js"></script>
+<!----===== Boxicons CSS ===== -->
+<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+<script src="../js/nav.js"></script>
 <link rel="stylesheet" href="../css/nav.css">

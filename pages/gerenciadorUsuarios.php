@@ -66,7 +66,7 @@
                                 <td class='table-sobrenome'>Marques Mega de Sousa</td>
                                 <td class='table-email'>teste.teste@gmail.com</td>
                                 <td class='table-phone'>11 999991234</td>
-                                <td class='table-date'>23/06/2021 11:16</td>
+                                <td class='table-date'>23/06/2021</td>
                                 <td class='table-admin'>Não</td>
 
                                 <td class='table-actions'><button class="btn-edit">editar</button></td>
@@ -84,7 +84,7 @@
                                 <td class='table-sobrenome'>Marques Mega de Sousa</td>
                                 <td class='table-email'>teste@gmail.com</td>
                                 <td class='table-phone'>11 992977850</td>
-                                <td class='table-date'>23/06/2022 12:16</td>
+                                <td class='table-date'>23/06/2022</td>
                                 <td class='table-admin'>sim</td>
 
                                 <td class='table-actions'><button class="btn-edit">editar</button></td>

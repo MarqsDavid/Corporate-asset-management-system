@@ -23,16 +23,7 @@
     --tran-05: all 0.3s ease;
 }
 
-body{
-    min-height: 100vh;
-    background-color: var(--body-color);
-    transition: var(--tran-05);
-}
 
-::selection{
-    background-color: var(--primary-color);
-    color: #fff;
-}
 
 body.dark{
     --body-color: #18191a;

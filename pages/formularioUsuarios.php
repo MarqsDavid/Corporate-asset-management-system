@@ -55,7 +55,7 @@
                         <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite a senha novamente" required>
                     </div>
 
-
+                
                 </div>
 
                 <div class="gender-inputs">
@@ -96,6 +96,14 @@
                         </div>
                     </div>
 
+                 
+                </div>
+
+                <br>
+
+                <div class="creation-date">
+                    <label for="creation-date"><b>Data de Criação:</b></label>
+                    <input type="date" name="creation-date"  required>
                 </div>
                 
                 <div class="continue-button">

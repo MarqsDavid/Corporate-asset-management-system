@@ -1,3 +1,4 @@
+<?php include('../php/sessao.php')?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -6,16 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!----======== CSS ======== -->
-    <link rel="stylesheet" href="../css/home.css">
-    
-    <!----===== Boxicons CSS ===== -->
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/home.css">
     
     <title>Home</title> 
 </head>
 <body>
-    <?php include("../components/nav.html"); ?>
-
-
+    <?php include("../components/nav.php"); ?>
+    <section class="home">
+        <div class="text">Home</div>
+    
+   
+    
+   </section>
 </body>
 </html>

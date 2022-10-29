@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/gerenUsu.css">
+    <link rel="stylesheet" href="./css/gerenUsu.css">
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <title>Gerenciamento de Usuários</title>
@@ -13,12 +13,12 @@
     <div class="grid-container">
         <div class="header">
             <figure>
-                <img src="../icons/icone-engrenagem.png" alt=""width="40" height="40">
+                <img src="./icons/icone-engrenagem.png" alt=""width="40" height="40">
             </firgure>
             <nav>
                  
                 <div class="nav-user">USUARIOS</div>
-                <div class="nav-add"><a href="#">ADICIONAR</a></div>
+                <div class="nav-add"><a href="../MySystem/pages/formularioUsuarios.php">ADICIONAR</a></div>
 
             </nav>
         </div>
@@ -61,7 +61,7 @@
                             <tr>
                                 <td class="border-blue"></td>
                                 <td class="table-id">1</td>
-                                <td class='table-icon'><img src="../icons/icon2.jpg" alt="icone"></td>
+                                <td class='table-icon'><img src="./icons/icon2.jpg" alt="icone"></td>
                                 <td class='table-name'>David</td>
                                 <td class='table-sobrenome'>Marques Mega de Sousa</td>
                                 <td class='table-email'>teste.teste@gmail.com</td>
@@ -79,7 +79,7 @@
                             <tr>
                                 <td class="border-green"></td>
                                 <td class="table-id">2</td>
-                                <td class='table-icon'><img src="../icons/icon4.jpg" alt="icone"></td>
+                                <td class='table-icon'><img src="./icons/icon4.jpg" alt="icone"></td>
                                 <td class='table-name'>Alan</td>
                                 <td class='table-sobrenome'>Marques Mega de Sousa</td>
                                 <td class='table-email'>teste@gmail.com</td>

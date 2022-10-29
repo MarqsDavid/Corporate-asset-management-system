@@ -21,7 +21,7 @@
                         <h1>Cadastro de Usuarios</h1>
                     </div>
                     <div class="login-button">
-                        <button><a href="#">Voltar</a></button>
+                        <button><a href="../gerenciadorUsuarios.php">Voltar</a></button>
                     </div>
                 </div>
 

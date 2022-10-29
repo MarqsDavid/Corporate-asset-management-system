@@ -6,14 +6,14 @@
     $conexao = new mysqli($dbHost,$dbUsernmae,"",$dbName);
 
 
-   // if($conexao->connect_errno)
-   // {
-   //     echo "Erro";
-  //  }
+ if($conexao->connect_errno)
+  {
+     echo "Erro";
+  }
 
-  //   else
-  //  {
-  //      echo "Cadastro efetuada com sucesso";
-  // }
+   else
+   {
+    header('Location: ../pages/formularioUsuarios.php');
+   }
 ?>
 

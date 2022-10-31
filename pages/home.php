@@ -16,8 +16,7 @@
     <section class="home">
         <div class="text">Home</div>
     
-   
-    
+        
    </section>
 </body>
 </html>

@@ -6,14 +6,6 @@
     $conexao = new mysqli($dbHost,$dbUsernmae,"",$dbName);
 
 
- if($conexao->connect_errno)
-  {
-     echo "Erro";
-  }
 
-   else
-   {
-    header('Location: ../pages/formularioUsuarios.php');
-   }
 ?>
 

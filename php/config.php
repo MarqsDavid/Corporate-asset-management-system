@@ -6,6 +6,5 @@
     $conexao = new mysqli($dbHost,$dbUsernmae,"",$dbName);
 
 
-
 ?>
 

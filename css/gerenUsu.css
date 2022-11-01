@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2? family= Anek+Malayalam:wght@100;400 & display=swap' );
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 *{
     margin: 0;
@@ -66,7 +65,7 @@ body{
 }
 
 .nav-add a{
-
+    text-decoration: none;
     color: #ffffff !important;
 }
 
@@ -101,6 +100,10 @@ body{
     box-shadow: 0 0 50px #0078F0;
 }
 
+.box a{
+    text-decoration: none;
+}
+
 .exit a{
     transform: translate(60px);
     color: #ffffff !important;
@@ -129,5 +132,4 @@ body{
     color: #3b3b3b;
     box-shadow: 0 0 20px rgba(0,0,0,0.26);
 }
-
 

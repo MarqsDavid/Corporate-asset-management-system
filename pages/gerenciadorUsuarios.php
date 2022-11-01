@@ -6,9 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/gerenUsu.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <title>Gerenciamento de Usuários</title>
 </head>
 <body>
@@ -27,9 +26,7 @@
 
         <div class="exit">
             <div class="box">
-                <div class="icon exit" >
-                    <ion-icon name="exit"></ion-icon>
-                </div>
+                <div class='bx bx-log-out icon' ></div>
                 <a href="../php/sai.php">Sai</a>
             </div>
         </div>

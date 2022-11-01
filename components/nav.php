@@ -2,16 +2,9 @@
 <nav class="sidebar close">
     <header>
         <div class="image-text">
-            <span class="image">
-                <img src="../img/D Logo.png" alt="">
-            </span>
-
             <div class="text logo-text">
-                <span class="name">   <?php
-                    echo "$logado";
-                ?></span>
+                <span class="name"><?php echo "$logado";?></span>
                 <span class="profession"></span>
-
             </div>
         </div>
 

@@ -58,45 +58,37 @@
                 
                 </div>
 
-                <div class="gender-inputs">
-                    <div class="gender-title">
-                        <h6>Gênero</h6>
-                    </div>
 
+                <div class="gender-inputs">
                     <div class="gender-group">
                         <div class="gender-input">
-                            <input id="female" type="radio" name="gender">
-                            <label for="female">Feminino</label>
+                            <p>
+                            <label for="cEst">Gênero:</label>
+                                <select name="gender" id="cEst">
+                                    <optgroup>
+                                        <option >Feminino</option>
+                                        <option >Masculino</option>
+                                    </optgroup>
+                                </select>
+                            </p> 
                         </div>
-
-                        <div class="gender-input">
-                            <input id="male" type="radio" name="gender">
-                            <label for="male">Masculino</label>
-                        </div>
-
                     </div>
                 </div>
-
-
                 
                 <div class="gender-inputs">
-                    <div class="title-usu">
-                        <h6>Tipo de Usuario</h6>
-                    </div>
-
                     <div class="gender-group">
                         <div class="gender-input">
-                            <input id="admin" type="radio" name="usu-taype">
-                            <label for="admin">Admintrador</label>
-                        </div>
-
-                        <div class="gender-input">
-                            <input id="none" type="radio" name="usu-taype">
-                            <label for="none">Usuario comum</label>
+                            <p>
+                            <label for="cEst">Tipo de Usuario:</label>
+                                <select name="usu-taype" id="cEst">
+                                    <optgroup>
+                                        <option >Administrador</option>
+                                        <option >Usuário</option>
+                                    </optgroup>
+                                </select>
+                            </p> 
                         </div>
                     </div>
-
-                 
                 </div>
 
                 <br>
@@ -110,6 +102,7 @@
                     <button><a>Cadastra</a></button>
                 </div>
             </form>
+            
         </div>
     </div>
 </body>

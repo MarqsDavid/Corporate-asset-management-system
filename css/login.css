@@ -62,8 +62,8 @@ form.sign-in-form {
 
 .title {
   font-size: 20px;
-    text-align: center;
-    color: #696969;
+  text-align: center;
+  color: #696969;
 }
 
 .title01 b {
@@ -71,7 +71,7 @@ form.sign-in-form {
 }
 
 .title01 {
-    
+  
   font-weight: 600;
   margin-bottom: 2rem;
   position: relative;

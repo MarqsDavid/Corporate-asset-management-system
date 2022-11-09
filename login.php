@@ -20,6 +20,7 @@
             <button class="btnClose" onclick="closeModal()">X</button>
             </div>
             <br>
+            <form action="../MySystem/php/logaAdmin.php" method="POST">
                 <h1 id="text-admin">Login adm<b>in</b></h1>
                 <br>
                 <div class="email">
@@ -30,13 +31,14 @@
                 </div>
                 <br>
                 <div class="entrar">
-                    <input type="submit" name="Username" value="Entrar">
+                    <input type="submit" name="submit" value="Entrar">
                 </div>
+              </form>    
             </div>
         </div>
       </div>
     </div>
-      <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script>
 
 
 

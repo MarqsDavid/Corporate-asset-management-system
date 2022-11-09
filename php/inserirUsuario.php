@@ -9,13 +9,12 @@
        $email = $_POST['email'];
        $celular = $_POST['number'];
        $genero = $_POST['gender'];
-       $tipoUsuario = $_POST['usu-taype'];
        $senha = $_POST['password']; 
        $confimeSenha = $_POST['confirmPassword']; 
        $dataCriacao = $_POST['creation-date'];
        
-       $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,sobrenome,email,celular,genero,tipoUsuario,senha,confimeSenha,dataCriacao) VALUES
-       ('$nome','$sobrenome','$email','$celular','$genero','$tipoUsuario','$senha','$confimeSenha','$dataCriacao')");
+       $result = mysqli_query($conexao, "INSERT INTO usuarios(nome,sobrenome,email,celular,genero,senha,confimeSenha,dataCriacao) VALUES
+       ('$nome','$sobrenome','$email','$celular','$genero','$senha','$confimeSenha','$dataCriacao')");
 
     }
 ?>

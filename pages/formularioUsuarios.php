@@ -75,21 +75,7 @@
                     </div>
                 </div>
                 
-                <div class="gender-inputs">
-                    <div class="gender-group">
-                        <div class="gender-input">
-                            <p>
-                            <label for="cEst">Tipo de Usuario:</label>
-                                <select name="usu-taype" id="cEst">
-                                    <optgroup>
-                                        <option >Administrador</option>
-                                        <option >Usuário</option>
-                                    </optgroup>
-                                </select>
-                            </p> 
-                        </div>
-                    </div>
-                </div>
+      
 
                 <br>
 

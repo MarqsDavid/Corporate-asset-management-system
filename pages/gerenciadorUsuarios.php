@@ -41,7 +41,6 @@
                     <th scope="col">Email</th>
                     <th scope="col">Celular</th>
                     <th scope="col">Genero</th>
-                    <th scope="col">Tipo de Usuario</th>
                     <th scope="col">Senha</th>
                     <th scope="col">Data de Craição</th>
                     <th scope="col">Editar</th>
@@ -50,6 +49,7 @@
             <tbody>
                 <?php
                     while($user_data = mysqli_fetch_assoc($result)) {
+                        
                         echo "<tr>";
                         echo "<td>".$user_data['id']."</td>";
                         echo "<td>".$user_data['nome']."</td>";
@@ -57,7 +57,6 @@
                         echo "<td>".$user_data['email']."</td>";
                         echo "<td>".$user_data['celular']."</td>";
                         echo "<td>".$user_data['genero']."</td>";
-                        echo "<td>".$user_data['tipoUsuario']."</td>";
                         echo "<td>".$user_data['senha']."</td>";
                         echo "<td>".$user_data['dataCriacao']."</td>";
                         

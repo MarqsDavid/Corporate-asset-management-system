@@ -1,14 +1,15 @@
 <?php
     session_start();
+    
+    include_once('configAdmin.php');
     include_once('config.php');
 
-    if((!isset($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true))
+    if((!isset($_SESSION['username']) == true) and (!isset ($_SESSION['passwordAdmin']) == true))
     {
-        unset($_SESSION['email']);
-        unset($_SESSION['senha']);
+        unset($_SESSION['username']);
+        unset($_SESSION['passwordAdmin']);
         header('Location: ../login.php');
     }
-    $logado = $_SESSION['email'];
 
     $sql= "SELECT * FROM  usuarios ORDER BY  id DESC";
 

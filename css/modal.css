@@ -112,7 +112,7 @@ span {
   margin-top: 15px;
 }
 
-.entrar input {
+.entrar button {
   cursor: pointer;
   width: 120px;
   height: 40px;
@@ -142,9 +142,7 @@ input::placeholder {
   margin-top: 65px;
 }
 
-.box img {
-  width: 115px;
-}
+
 
 input:focus {
   outline: none;

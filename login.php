@@ -31,7 +31,6 @@
                 </div>
                 <br>
                 <div class="entrar">
-                  
                     <input type="submit" name="submit" value="Entrar">
                 </div>
               </form>    

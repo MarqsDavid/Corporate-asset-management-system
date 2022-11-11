@@ -7,7 +7,7 @@ use LDAP\Result;
     if(isset($_POST['submit']) && !empty($_POST['username']) && !empty($_POST['passwordAdmin']))
     {
 
-        include_once('configAdmin.php');
+        include_once('config.php');
         $username = $_POST['username'];
         $passwordAdmin = $_POST['passwordAdmin'];
 

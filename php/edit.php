@@ -11,14 +11,14 @@
             while($user_data = mysqli_fetch_assoc($result))
             {
                 $nome = $user_data['nome'];
-                $senha = $user_data['sobrenome'];
+                $sobrenome = $user_data['sobrenome'];
                 $email = $user_data['email'];
-                $telefone = $user_data['celular'];
-                $sexo = $user_data['genero'];
-                $data_nasc = $user_data['tipoUsuario'];
-                $cidade = $user_data['senha'];
-                $estado = $user_data['estado'];
-                $endereco = $user_data['dataCriacao'];
+                $celular = $user_data['celular'];
+                $genero = $user_data['genero'];
+               
+                $senha = $user_data['senha'];
+                $confimeSenha = $user_data['confimeSenha'];
+                $dataCriacao = $user_data['dataCriacao'];
             }
         }
         else
@@ -28,6 +28,6 @@
     }
     else
     {
-        header('Location: ../pages/gerenciadorUsuarios.php');
+    
     }
 ?>

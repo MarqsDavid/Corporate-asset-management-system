@@ -64,9 +64,8 @@
 
 </nav>
 
-<section class="home">
-    <div class="text">Home</div>
-</section>
+<!----======== PDF ======== -->
+
 <!----===== Boxicons CSS ===== -->
 <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 <script src="../js/nav.js"></script>
@@ -82,7 +81,7 @@
                         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
                     <div class="modal-body">
-                        <form action="../php/saveEdit.php" method="POST" >
+                        <form action="../php/inserirPatrimonios.php" method="POST" >
                             <?php include('../php/edit.php'); ?>
                             <input type="hidden" name="id" value="<?php echo $id?>">
                             <div class="mb-3">
@@ -91,7 +90,7 @@
                             </div>
                             <div class="mb-3">
                                 <label class="form-label required">Tipo</label>
-                                <input class="form-control" type="text" name="type" placeholder="Digite o Tipo" required>
+                                <input class="form-control" type="text" name="types" placeholder="Digite o Tipo" required>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label required">Modelo</label>
@@ -116,7 +115,7 @@
                             </div>
 
                             <div class="modal-footer">
-                                <button type="submit" name="update" id="update" class="btn btn-primary">Adicionar</button>
+                                <button type="submit" name="submit" id="update" class="btn btn-primary">Adicionar</button>
                                 <button type="button" data-bs-dismiss="modal" class="btn btn-danger">Cancela</button>
                             </div>
                         </form>

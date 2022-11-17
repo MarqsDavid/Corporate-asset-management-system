@@ -21,14 +21,11 @@
         <div class="row">
             <table id="example" class="table table-striped" style="width:100%">
                 <thead>
-                    <tr>
-                        
-                        <th>Marca</th>
-                        <th>Tipo</th>
-                        <th>Modelo</th>
-                        <th>Patrimonio</th>
-                        <th>Localização</th>
-                        <th>Usuario</th>
+                    <tr>       
+                        <th>Descrição</th>
+                        <th>Nº Patrimônio</th>
+                        <th>Nº Localização</th>
+                        <th>Responsável</th>    
                         <th>Data de Craição</th>
                         <th>Editar</th>
                     </tr>
@@ -39,12 +36,10 @@
                         
                         echo "<tr>";
                         
-                        echo "<td>".$user_data['marca']."</td>";
-                        echo "<td>".$user_data['tipo']."</td>";
-                        echo "<td>".$user_data['modelo']."</td>";
-                        echo "<td>".$user_data['patrimonio']."</td>";
-                        echo "<td>".$user_data['localizacao']."</td>";
-                        echo "<td>".$user_data['usuario']."</td>";
+                        echo "<td>".$user_data['descricao']."</td>";
+                        echo "<td>".$user_data['numeroPatrimonio']."</td>";
+                        echo "<td>".$user_data['numeroLocalizacao']."</td>";
+                        echo "<td>".$user_data['responsavel']."</td>";  
                         echo "<td>".$user_data['dataCriacao']."</td>";
                         
                         echo "<td>
@@ -67,12 +62,10 @@
                 </tbody>
                 <tfoot>
                     <tr>
-                        <th>Marca</th>
-                        <th>Tipo</th>
-                        <th>Modelo</th>
-                        <th>Patrimonio</th>
-                        <th>Localização</th>
-                        <th>Usuario</th>
+                        <th>Descrição</th>
+                        <th>Nº Patrimônio</th>
+                        <th>Nº Localização</th>
+                        <th>Responsável</th>    
                         <th>Data de Craição</th>
                         <th>Editar</th>
                     </tr>

@@ -85,29 +85,20 @@
                             <?php include('../php/edit.php'); ?>
                             <input type="hidden" name="id" value="<?php echo $id?>">
                             <div class="mb-3">
-                                <label class="form-label required">Marca</label>
-                                <input class="form-control" type="text" name="mark" placeholder="Digite Marca" required>
+                                <label class="form-label required">Descrição</label>
+                                <input class="form-control" type="text" name="description" placeholder="Digite a Descrição" required>
                             </div>
                             <div class="mb-3">
-                                <label class="form-label required">Tipo</label>
-                                <input class="form-control" type="text" name="types" placeholder="Digite o Tipo" required>
+                                <label class="form-label required">Nº Patrimônio</label>
+                                <input class="form-control" type="number" name="patrimony" placeholder="Digite o Patrimônio" required>
                             </div>
                             <div class="mb-3">
-                                <label class="form-label required">Modelo</label>
-                                <input class="form-control" type="text" name="model" placeholder="Digite o Modelo" required>
+                                <label class="form-label required">Nº Localização</label>
+                                <input class="form-control" type="number" name="location" placeholder="Digite a Localização" required>
                             </div>
                             <div class="mb-3">
-                                <label class="form-label required">Patrimonio</label>
-                                <input  class="form-control" type="number" name="patrimony" placeholder="Digite o Patrimonio" required>
-                            </div>
-                 
-                            <div class="mb-3">
-                                <label class="form-label required">Localização</label>
-                                <input class="form-control" type="text" name="location" placeholder="Digite a Localização" required>
-                            </div>
-                            <div class="mb-3">
-                                <label class="form-label required">Usuario</label>
-                                <input class="form-control" type="text" name="user" placeholder="Digite o Usuario" required>
+                                <label class="form-label required">Responsável</label>
+                                <input class="form-control" type="text" name="user" placeholder="Digite o Responsável" required>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label required">Data de Craição</label>

@@ -31,7 +31,7 @@
                 <li class="nav-link">
                     <a  data-bs-toggle='modal' href="#myModal">
                         <i class='bx bx-duplicate icon'></i>
-                        <span class="text nav-text">Adicionar Patrimonio</span>
+                        <span class="text nav-text">Adicionar</span>
                     </a>
                 </li>
 

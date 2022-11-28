@@ -93,8 +93,8 @@
                                 <input class="form-control" type="number" name="patrimony" placeholder="Digite o Patrimônio" required>
                             </div>
                             <div class="mb-3">
-                                <label class="form-label required">Nº Localização</label>
-                                <input class="form-control" type="number" name="location" placeholder="Digite a Localização" required>
+                                <label class="form-label required">Nº Localização e Descrição </label>
+                                <input class="form-control" type="text" name="location" placeholder="Digite a Localização" required>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label required">Responsável</label>

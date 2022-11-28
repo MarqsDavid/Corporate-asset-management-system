@@ -16,8 +16,8 @@
     <?php include("../components/nav.php"); ?>
     <section class="home">
         <div class="text">Home</div>
-
-        <div class=" container">
+  
+        <div class="container">
         <div class="row">
             <table id="example" class="table table-striped" style="width:100%">
                 <thead>
@@ -73,9 +73,7 @@
             </table>
         </div>
     </div>
- 
-   
-
    </section>
 </body>
+<script src="../js/search.js"></script>
 </html>

@@ -15,8 +15,8 @@
         <div class="menu">
 
             <li class="search-box">
-                <i class='bx bx-search icon'></i>
-                <input type="text" placeholder="Search...">
+                <i onclick="searchData()" class='bx bx-search icon'></i>
+                <input type="search" placeholder="Pesquisa..." id="pesquisar">
             </li>
 
          
@@ -64,12 +64,17 @@
 
 </nav>
 
+<!----===== Boxicons JS ===== -->
+<script src="../js/nav.js"></script>
+
+
+
 <!----======== PDF ======== -->
 
 <!----===== Boxicons CSS ===== -->
 <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-<script src="../js/nav.js"></script>
 <link rel="stylesheet" href="../css/nav.css">
+
 
 <!----===== Modal Adicionar ===== -->
 

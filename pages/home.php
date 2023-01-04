@@ -25,7 +25,7 @@
     <?php include("../components/nav.php"); ?>
     <section class="home">
     <div class="text">Home</div>
-        <br>
+        
      
     <div class="container">
         <div class="row">

@@ -23,6 +23,10 @@
     --tran-05: all 0.3s ease;
 }
 
+body {
+    background-color: var(--body-color);
+}
+
 body.dark{
     --body-color: #18191a;
     --sidebar-color: #242526;
@@ -277,6 +281,7 @@ body.dark .mode .sun-moon i.moon{
     height: 100vh;
     width: calc(100% - 250px);
     background-color: var(--body-color);
+   
     transition: var(--tran-05);
 }
 .home .text{
@@ -302,3 +307,4 @@ body.dark .home .text{
     color: white;
     
 }
+

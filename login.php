@@ -21,7 +21,7 @@
             </div>
             <br>
             <form action="../MySystem/php/logaAdmin.php" method="POST">
-                <h1 id="text-admin">Login adm<b>in</b></h1>
+                <h1 id="text-admin">Ent<b>ra</b></h1>
                 <br>
                 <div class="email">
                     <input type="username" name="username" placeholder="Usuário">

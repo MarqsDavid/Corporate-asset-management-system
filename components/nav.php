@@ -22,7 +22,7 @@
          
 
                 <li class="nav-link">
-                    <a href="#">
+                    <a id="download" href="#">
                         <i class='bx bx-clipboard icon' ></i>
                         <span class="text nav-text">Relatorio</span>
                     </a>
@@ -63,13 +63,14 @@
     </div>
 
 </nav>
+<!----======== PDF ======== -->
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js"></script>
+<script src="../js/funcaoPDF.js"></script>
 <!----===== Boxicons JS ===== -->
 <script src="../js/nav.js"></script>
 
 
-
-<!----======== PDF ======== -->
 
 <!----===== Boxicons CSS ===== -->
 <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
@@ -121,3 +122,4 @@
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    

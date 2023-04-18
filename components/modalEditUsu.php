@@ -9,10 +9,10 @@
                     </div>
                     <div class="modal-body">
                         <form action="#" method="POST" >
-                            <input type="hidden" name="id" value="<?php echo $id?>">
+                            <input type="hidden" name="id">
                             <div class="mb-3">
                                 <label class="form-label required">Name</label>
-                                <input class="form-control" type="text" name="firstname" placeholder="Digite o primeiro nome" value="<?php echo $nome?>" required>
+                                <input class="form-control" type="text" name="firstname" placeholder="Digite o primeiro nome" required>
                             </div>
                             <div class="mb-3">
                                 <label class="form-label required">Sobrenome</label>
